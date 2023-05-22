@@ -16,6 +16,7 @@ displays information such as temperature, weather description, and humidity for 
 
 ---
 <a name="how-it-works"></a>
+
 ## How It Works
 
 1. The application prompts the user to enter the name of a city for which they want to retrieve weather data.
@@ -26,11 +27,14 @@ displays information such as temperature, weather description, and humidity for 
 
 ----
 <a name="example-inputoutput"></a>
+
 ## Example Input/Output
 
 **Input**
 
-```Enter the city name (or type 'q' to quit): London```
+```
+Enter the city name (or type 'q' to quit): London
+```
 
 **Output**
 
@@ -43,6 +47,7 @@ Humidity: 70%
 
 ----
 <a name="libraries-used"></a>
+
 ## Libraries Used
 
 - **[libcurl](https://curl.se/)**: A library for making HTTP requests and retrieving data from APIs.
@@ -51,13 +56,16 @@ Make sure to have these libraries installed on your system before compiling the 
 
 ----
 <a name="getting-started"></a>
+
 ## Getting Started
 
 To get started with this project, follow these steps:
 
 1. Clone this repository using the following command:
 
-   ```git clone https://github.com/Arkadiusz4/weather_tracker.git```
+   ```
+   git clone https://github.com/Arkadiusz4/weather_tracker.git
+   ```
 
 2. Install the necessary dependencies, including the `libcurl` and `RapidJSON` libraries.
 
@@ -77,6 +85,7 @@ To get started with this project, follow these steps:
 
 ----
 <a name="creating-your-api-key"></a>
+
 ## Creating Your API Key
 
 To create your own API key for OpenWeatherMap, follow these steps:
@@ -113,6 +122,7 @@ Replace "YOUR_API_KEY" with your actual API key. Save the file.
 
 ----
 <a name="license"></a>
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
