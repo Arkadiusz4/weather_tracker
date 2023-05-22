@@ -36,3 +36,6 @@
 curl-8.1.0_1-win64-mingw
 jsoncpp-master
 cmake-build-debug
+
+# API key
+apikey.h
