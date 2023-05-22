@@ -6,6 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 find_package(CURL CONFIG REQUIRED)
 
 
-add_executable(weather_tracker main.cpp apikey.h)
+add_executable(weather_tracker src/main.cpp include/apikey.h)
 
 target_link_libraries(weather_tracker PRIVATE CURL::libcurl)
