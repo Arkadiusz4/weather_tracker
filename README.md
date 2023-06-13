@@ -51,6 +51,7 @@ Humidity: 70%
 ## Libraries Used
 
 - **[libcurl](https://curl.se/)**: A library for making HTTP requests and retrieving data from APIs.
+- **[JsonCpp](https://github.com/open-source-parsers/jsoncpp)**: JsonCpp is a C++ library that allows manipulating JSON values, including serialization and deserialization to and from strings.
 
 Make sure to have these libraries installed on your system before compiling the application.
 
@@ -67,7 +68,7 @@ To get started with this project, follow these steps:
    git clone https://github.com/Arkadiusz4/weather_tracker.git
    ```
 
-2. Install the necessary dependencies, including the `libcurl` and `RapidJSON` libraries.
+2. Install the necessary dependencies, including the `libcurl` and `JsonCpp` libraries.
 
 3. Create your own OpenWeatherMap API key by signing up for a free account on
    the [OpenWeatherMap website](https://openweathermap.org/). Copy the generated API key.
