@@ -71,7 +71,7 @@ To get started with this project, follow these steps:
 2. Install the necessary dependencies, including the `libcurl` and `JsonCpp` libraries.
 
 3. Create your own OpenWeatherMap API key by signing up for a free account on
-   the [OpenWeatherMap website](https://openweathermap.org/). Copy the generated API key.
+   the [OpenWeatherMap](https://openweathermap.org/) website. Copy the generated API key.
 
 4. Open the `apikey.h` file in the project and replace the existing placeholder API key with your own key. Save the
    file.
