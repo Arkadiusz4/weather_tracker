@@ -1,11 +1,11 @@
 #include <iostream>
 #include <string>
 
-#include "../include/functions/getWeatherData.h"
-#include "../include/apikey.h"
-#include "../include/functions/convertKelvinToCelsius.h"
-#include "../include/functions/parseWeatherData.h"
-#include "../include/functions/printWeatherData.h"
+#include "functions/getWeatherData.h"
+#include "apikey.h"
+#include "functions/convertKelvinToCelsius.h"
+#include "functions/parseWeatherData.h"
+#include "functions/printWeatherData.h"
 
 int main() {
     std::string cityName;

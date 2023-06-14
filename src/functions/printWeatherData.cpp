@@ -1,7 +1,7 @@
 #include <string>
 #include <iostream>
 #include <iomanip>
-#include "../../include/functions/printWeatherData.h"
+#include "functions/printWeatherData.h"
 
 void printWeatherData(const std::string &cityName, double temperatureInCelsius, const std::string &weatherDescription,
                       int humidity) {

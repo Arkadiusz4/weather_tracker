@@ -1,4 +1,4 @@
-#include "../../include/functions/getWeatherData.h"
+#include "functions/getWeatherData.h"
 #include <curl/curl.h>
 #include <string>
 #include <iostream>

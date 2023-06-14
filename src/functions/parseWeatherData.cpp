@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../../include/functions/parseWeatherData.h"
+#include "functions/parseWeatherData.h"
 #include "json/value.h"
 #include "json/reader.h"
 
