@@ -10,7 +10,7 @@ size_t WriteCallback(void *contents, size_t size, size_t nmemb, std::string *out
 }
 
 bool getWeatherData(const std::string &cityName, const std::string &apiKey, std::string &response) {
-    std::string apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + apiKey;
+    const std::string apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + apiKey;
 
     CURL *curl = curl_easy_init();
     if (curl) {
