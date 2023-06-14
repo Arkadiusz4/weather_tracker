@@ -13,7 +13,10 @@ int main() {
 
     while (true) {
         std::cout << "Enter the city name (or type 'q' to quit): ";
-        std::getline(std::cin, cityName);
+
+        if (!std::getline(std::cin, cityName)) {
+            break;
+        }
 
         if (cityName == "q") {
             break;
