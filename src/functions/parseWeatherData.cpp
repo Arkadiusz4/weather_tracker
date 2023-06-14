@@ -3,8 +3,8 @@
 #include "json/value.h"
 #include "json/reader.h"
 
-bool
-parseWeatherData(const std::string &jsonData, double &temperature, std::string &weatherDescription, int &humidity) {
+bool parseWeatherData(const std::string &jsonData, double &temperature,
+                      std::string &weatherDescription, int &humidity) {
 
     Json::Value root;
     Json::Reader reader;
