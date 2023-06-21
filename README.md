@@ -102,7 +102,7 @@ Make sure to keep your API key secure and do not share it publicly.
 
 ### API key file
 
-Create a file called `apikey.h` in the project directory.
+Create a file called `apikey.h` in the project directory Place it in the `include` folder.
 
 Open the `apikey.h` file and paste the following code:
 
